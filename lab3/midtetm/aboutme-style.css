@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* กำหนดพื้นหลังสีเทาอ่อน */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* กำหนดสไตล์ให้กับหัวข้อ */
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* กำหนดสไตล์ให้กับย่อหน้า */
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* การจัดการลิงค์ */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* การตั้งค่ากล่องเนื้อหา */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
